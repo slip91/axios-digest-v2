@@ -1,5 +1,5 @@
 {
-  "name": "axios-digest",
+  "name": "axios-digest-v2",
   "version": "0.1.1",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/rearn/axios-digest.git"
   },
-  "author": "minamibashi rearn <minamibashi@rearn.info> (https://github.com/rearn)",
+  "author": "minamibashi rearn, fix ovz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rearn/axios-digest/issues"
