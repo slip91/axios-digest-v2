@@ -78,9 +78,11 @@ export class AxiosDigest {
     const paramsArray: string[][] = paramsString.map((v) => v.split(/\s*,(?=(?:[^"]*"[^"]*")*)\s*/));
     const paramsKvArray: [string, string][][] = paramsArray.map<[string, string][]>((v) => {
       return v.map<[string, string]>((value) => {
-        const ret = value.split(/\s*=(?:(?=[^"]*"[^"]*")|(?!"))\s*/, 2).map((v2) => {
+        const ret = value.split(/"/, 2).map((v2) => {
           return v2.replace(/^"/, '').replace(/"$/, '');
         });
+        
+        ret[0] = ret[0].replace(/=/, '')
         return [ret[0], ret[1]];
       });
     });
