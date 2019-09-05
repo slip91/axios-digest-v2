@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rearn/axios-digest.git"
+    "url": "git@github.com:slip91/axios-digest-v2.git"
   },
   "author": "minamibashi rearn, fix ovz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rearn/axios-digest/issues"
+    "url": "https:///github.com/slip91/axios-digest-v2/issues"
   },
-  "homepage": "https://github.com/rearn/axios-digest#readme",
+  "homepage": "https:///github.com/slip91/axios-digest-v2/#readme",
   "devDependencies": {
     "@types/jest": "^24.0.11",
     "@types/js-md5": "^0.4.2",
